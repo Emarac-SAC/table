@@ -5,10 +5,11 @@ import math
 class database:
     def __init__(self):
         self.cnx = mysql.connector.connect(
-        host="209.45.83.59",
+        host="45.77.80.71",
         user="sistemas",
-        password="qbJITBTz29o8Svf",
-        database="inventario")
+        password="Sm~18jn57",
+        database="emaran")
+        #database = "inventario")
         self.cursor = self.cnx.cursor()
 
     def gettable(self, table):
